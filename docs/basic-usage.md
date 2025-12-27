@@ -1,8 +1,3 @@
----
-title: Basic Usage
-description: Complete guide to matching, replacing, splitting, and utility methods in Relex.
----
-
 This guide covers all the core operations available in Relex for working with regular expressions.
 
 ## Matching

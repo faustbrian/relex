@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Install, configure, and start using Relex for elegant regular expression handling in PHP.
----
-
 Welcome to Relex, a clean and fluent API for working with regular expressions in PHP. This guide will help you install, configure, and start using Relex in your application.
 
 ## What is Relex?

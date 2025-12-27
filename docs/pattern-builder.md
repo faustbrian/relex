@@ -1,8 +1,3 @@
----
-title: Pattern Builder
-description: Build regex patterns programmatically with the fluent Pattern API and type-safe modifiers.
----
-
 The `Pattern` value object provides a fluent API for building regex patterns with type-safe modifier configuration.
 
 ## Creating Patterns

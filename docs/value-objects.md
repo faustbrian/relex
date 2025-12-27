@@ -1,8 +1,3 @@
----
-title: Value Objects
-description: Deep dive into MatchResult, MatchAllResult, ReplaceResult, and SplitResult value objects.
----
-
 Relex wraps PHP's preg_* functions with immutable value objects that provide type-safe, fluent APIs for working with regex results.
 
 ## MatchResult
