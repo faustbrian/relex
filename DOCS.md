@@ -1,9 +1,9 @@
 ## Table of Contents
 
-1. [Overview](#doc-docs-readme) (`docs/README.md`)
-2. [Basic Usage](#doc-docs-basic-usage) (`docs/basic-usage.md`)
-3. [Pattern Builder](#doc-docs-pattern-builder) (`docs/pattern-builder.md`)
-4. [Value Objects](#doc-docs-value-objects) (`docs/value-objects.md`)
+1. [Overview](#doc-docs-readme)
+2. [Basic Usage](#doc-docs-basic-usage)
+3. [Pattern Builder](#doc-docs-pattern-builder)
+4. [Value Objects](#doc-docs-value-objects)
 <a id="doc-docs-readme"></a>
 
 Welcome to Relex, a clean and fluent API for working with regular expressions in PHP. This guide will help you install, configure, and start using Relex in your application.
