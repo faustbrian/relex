@@ -1,9 +1,11 @@
 ## Table of Contents
 
-1. Overview (`docs/README.md`)
-2. Basic Usage (`docs/basic-usage.md`)
-3. Pattern Builder (`docs/pattern-builder.md`)
-4. Value Objects (`docs/value-objects.md`)
+1. [Overview](#doc-docs-readme) (`docs/README.md`)
+2. [Basic Usage](#doc-docs-basic-usage) (`docs/basic-usage.md`)
+3. [Pattern Builder](#doc-docs-pattern-builder) (`docs/pattern-builder.md`)
+4. [Value Objects](#doc-docs-value-objects) (`docs/value-objects.md`)
+<a id="doc-docs-readme"></a>
+
 Welcome to Relex, a clean and fluent API for working with regular expressions in PHP. This guide will help you install, configure, and start using Relex in your application.
 
 ## What is Relex?
@@ -172,6 +174,8 @@ $split->results(); // ["a", " ", "b", "  ", "c"]
 - **[Basic Usage](./basic-usage)** - Explore all matching and manipulation methods
 - **[Pattern Builder](./pattern-builder)** - Build patterns with modifiers
 - **[Value Objects](./value-objects)** - Deep dive into result objects
+
+<a id="doc-docs-basic-usage"></a>
 
 This guide covers all the core operations available in Relex for working with regular expressions.
 
@@ -490,6 +494,8 @@ $sum = Relex::matchAll('/\d+/', 'a1 b2 c3')
 // 6
 ```
 
+<a id="doc-docs-pattern-builder"></a>
+
 The `Pattern` value object provides a fluent API for building regex patterns with type-safe modifier configuration.
 
 ## Creating Patterns
@@ -747,6 +753,8 @@ $verbose = Pattern::create('
     (?<day>\d{2})    # Day (2 digits)
 ')->extended();
 ```
+
+<a id="doc-docs-value-objects"></a>
 
 Relex wraps PHP's preg_* functions with immutable value objects that provide type-safe, fluent APIs for working with regex results.
 
